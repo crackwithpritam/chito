@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>chito. — fast, refined, nepali</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="contour-bg" aria-hidden="true"></div>
+
+  <!-- nav -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="logo" aria-label="chito home">chito<span class="dot">.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="btn-text" id="cart-btn">Cart <span id="cart-count">(0)</span></button>
+        <button class="btn-ghost" id="login-btn">Login</button>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero -->
+  <header class="hero">
+    <p class="eyebrow">Made in Pokhara <span class="dot-mini">·</span> built for speed</p>
+    <h1 class="hero-title">Fast things,<br/>done <em>beautifully</em><span class="dot dot-lg">.</span></h1>
+    <p class="hero-sub">chito is a refined way to move, pay, and live — quietly powerful, distinctly Nepali.</p>
+    <div class="hero-actions">
+      <a href="#shop" class="btn-primary">Shop now <span class="arrow">→</span></a>
+      <a href="#story" class="btn-text">Watch the film</a>
+    </div>
+  </header>
+
+  <!-- features -->
+  <section id="features" class="features" data-reveal>
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2>Three things, done right<span class="dot">.</span></h2>
+    </div>
+    <div class="feature-grid">
+      <article class="feature-card"><div class="card-icon">◈</div><h3>Instant</h3><p>Payments and transfers settle in under a second. No spinning wheels, no waiting rooms.</p></article>
+      <article class="feature-card"><div class="card-icon">◊</div><h3>Quiet</h3><p>No banners. No noise. Just the thing you needed, exactly when you needed it.</p></article>
+      <article class="feature-card"><div class="card-icon">❖</div><h3>Yours</h3><p>Designed in Pokhara, tuned for the streets you actually walk. Local first, always.</p></article>
+    </div>
+  </section>
+
+  <!-- shop -->
+  <section id="shop" class="shop" data-reveal>
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2>The Collection<span class="dot">.</span></h2>
+    </div>
+    <div class="product-grid">
+      <article class="product-card">
+        <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1559056199-641a0ac8b55e?q=80&w=800&auto=format&fit=crop');"></div>
+        <div class="product-info">
+          <h3>Lumbini Roast</h3><p>Highland arabica, dark roasted.</p>
+          <div class="product-action">
+            <span class="price">Rs. 1,200</span>
+            <button class="add-cart" data-name="Lumbini Roast" data-price="1200">Add to cart</button>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1601924994987-69e26d50dc26?q=80&w=800&auto=format&fit=crop');"></div>
+        <div class="product-info">
+          <h3>Dhaka Wrap</h3><p>Handwoven Himalyan Jacket.</p>
+          <div class="product-action">
+            <span class="price">Rs. 2,450</span>
+            <button class="add-cart" data-name="Dhaka Wrap" data-price="2450">Add to cart</button>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?q=80&w=800&auto=format&fit=crop');"></div>
+        <div class="product-info">
+          <h3>Patan Brass</h3><p>Handcrafted metalwork lamp.</p>
+          <div class="product-action">
+            <span class="price">Rs. 3,800</span>
+            <button class="add-cart" data-name="Patan Brass" data-price="3800">Add to cart</button>
+          </div>
+        </div>
+      </article>
+      <article class="product-card">
+        <div class="product-img" style="background-image: url('https://images.unsplash.com/photo-1597318181409-cf64d0b5d8a2?q=80&w=800&auto=format&fit=crop');"></div>
+        <div class="product-info">
+          <h3>Ilam Green</h3><p>First flush loose leaf tea.</p>
+          <div class="product-action">
+            <span class="price">Rs. 950</span>
+            <button class="add-cart" data-name="Ilam Green" data-price="950">Add to cart</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- story -->
+  <section id="story" class="story" data-reveal>
+    <div class="story-inner">
+      <p class="devanagari">छिटो</p>
+      <p class="story-text"><span class="dot">·</span> In Nepali, <em>chito</em> means fast. But fast without grace is just rushing. We build tools that move quickly and feel calm — because the best things in life are both.</p>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="contact" class="footer" data-reveal>
+    <div class="footer-grid">
+      <div><a href="#" class="logo logo-sm">chito<span class="dot">.</span></a><p class="footer-tag">Quietly fast. Distinctly Nepali.</p></div>
+      <div class="footer-col"><h4>Product</h4><a href="#shop">Shop</a><a href="#">Pricing</a><a href="#">Changelog</a></div>
+      <div class="footer-col"><h4>Company</h4><a href="#">About</a><a href="#">Careers</a><a href="#">Press</a></div>
+      <div class="footer-col"><h4>Reach</h4><a href="mailto:hello@chito.np">hello@chito.np</a><a href="#">+977 1 444 0000</a><a href="#">Pokhara, Kaski</a></div>
+    </div>
+    <div class="footer-base"><span>© 2026 chito<span class="dot">.</span> labs</span><span class="dot-mini">·</span><span>Crafted in the valley</span></div>
+  </footer>
+
+  <!-- AUTH MODAL (Login / Signup) -->
+  <div class="modal-overlay" id="auth-modal">
+    <div class="modal-card">
+      <button class="modal-close" id="auth-close">×</button>
+      <div class="auth-tabs">
+        <button class="auth-tab active" id="tab-login">Sign In</button>
+        <button class="auth-tab" id="tab-signup">Sign Up</button>
+      </div>
+      <form class="login-form" id="auth-form">
+        <div class="input-group name-group" id="name-group" style="display: none;">
+          <label>Full Name</label>
+          <input type="text" placeholder="Ram Sharma" required />
+        </div>
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" placeholder="you@chito.np" required />
+        </div>
+        <div class="input-group">
+          <label>Password</label>
+          <input type="password" placeholder="••••••••" required />
+        </div>
+        <button type="submit" class="btn-primary modal-submit" id="auth-submit">Sign in <span class="arrow">→</span></button>
+      </form>
+    </div>
+  </div>
+
+  <!-- CART DRAWER -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer">
+    <div class="cart-header">
+      <h3>Your Cart</h3>
+      <button class="cart-close" id="cart-close">×</button>
+    </div>
+    <div class="cart-items" id="cart-items">
+      <p class="cart-empty">Your cart is empty.<br/>Add something beautiful.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Subtotal</span> <span id="cart-total-price">Rs. 0</span></div>
+      <button class="btn-primary checkout-btn" id="checkout-btn">Checkout <span class="arrow">→</span></button>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
